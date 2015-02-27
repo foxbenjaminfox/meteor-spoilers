@@ -2,7 +2,7 @@ Package.describe({
   name: 'bjf:spoilers',
   version: '1.0.0',
   summary: 'Use spoiler tags to avoid accidentally spilling the beans',
-  git: '',
+  git: 'https://github.com/foxbenjaminfox/meteor-spoilers',
   documentation: 'README.md'
 });
 

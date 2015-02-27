@@ -2,12 +2,10 @@ This package gives you access to the `{{#spoiler}}` component. This hides potent
 
 Example:
 
-<pre><code>
-{{#spoiler}}
-  Darth Vader is Luke's father.
-{{else}}
-  Spoilers for <i>The Empire Strikes Back</i>
-{{/spoiler}}
-</code></pre>
+  {{#spoiler}}
+    Darth Vader is Luke's father.
+  {{else}}
+    Spoilers for <i>The Empire Strikes Back</i>.
+  {{/spoiler}}
 
 The `else` block is optional, and a generic spoiler warning will be used if it isn't provided.

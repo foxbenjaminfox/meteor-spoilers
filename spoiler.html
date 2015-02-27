@@ -1,0 +1,20 @@
+<template name="spoiler">
+  <div class="spoiler-element">
+    <div class="spoiler-body">
+      {{#if show}}
+      <span class="spoiler-content">
+        {{> Template.contentBlock}}
+      </span>
+      {{else}}
+      <span class="spoiler-warning">
+        {{#if Template.elseBlock}}
+            {{> Template.elseBlock}}
+        {{else}}
+            Spoiler Alert!
+        {{/if}}
+      </span>
+      {{/if}}
+    </div>
+    <button class="toggle-spoiler">{{toggleButtonText}}</button>
+  </div>
+</template>
